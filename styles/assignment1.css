@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+
+    background-image: url('../images/banner/banner1.png');
+
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.banner-description {
+    color: #444343;
+    text-align: right;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Work Sans';
+
+    margin-top: 24px;
+
+}
+
+.banner-title {
+    color: #151414;
+    text-align: right;
+    font-weight: 700;
+    font-size: 65px;
+    
+ 
+
+
+}
+
+.banner {
+    display: flex;
+   
+    margin: 0 300px;
+    
+   align-items: center;
+   height: 100vh;
+   width: 100%;
+    text-align: right;
+
+
+}
+
+
+.btn-primary {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 21px 25px 20px 26px;
+    height: 64px;
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFFFFF;
+    text-align: right;
+    border-top: 32px;
+}
+
+.container {
+    display: flex;
+    text-align: left;
+    margin: 200px 200px;
+    height: 60vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.picture {}
+
+
+
+.failure-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin: 100px 200px;
+    margin-bottom: 24px;
+}
+
+.failure-description {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 100px 200px;
+    margin-top: 40px;
+}
+
