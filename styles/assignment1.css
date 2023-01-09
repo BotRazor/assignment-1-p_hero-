@@ -1,12 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 .header {
 
     background-image: url('../images/banner/banner1.png');
-
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -15,43 +16,38 @@
 }
 
 .banner-description {
+
     color: #444343;
     text-align: right;
     font-weight: 400;
     font-size: 16px;
     font-family: 'Work Sans';
-
     margin-top: 24px;
+    line-height: 26px;
 
 }
 
 .banner-title {
+    font-family: 'Work Sans';
     color: #151414;
     text-align: right;
     font-weight: 700;
     font-size: 65px;
-    
- 
-
-
+    line-height: 76px;
 }
 
 .banner {
     display: flex;
-   
-    margin: 0 300px;
-    
-   align-items: center;
-   height: 100vh;
-   width: 100%;
+    margin: 0 200px;
+    align-items: center;
+    height: 100vh;
+    width: 90%;
     text-align: right;
-
-
+    margin-left: 50%;
+    transform: translate(50px, 50px);
 }
 
-
 .btn-primary {
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     border: 0;
@@ -61,7 +57,7 @@
     background: #F15B22;
     color: #FFFFFF;
     text-align: right;
-    border-top: 32px;
+    margin-top: 32px;
 }
 
 .container {
@@ -70,29 +66,79 @@
     margin: 200px 200px;
     height: 60vh;
     align-items: center;
-    justify-content: space-around;
 }
 
-.picture {}
-
-
+.failure {
+    margin-top: 390px;
+    margin-right: 294px;
+    margin-bottom: 193px;
+    margin-left: 115px;
+}
 
 .failure-title {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.failure-description {
+    font-weight: 400;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.check-portion {
+    width: 349px;
+    height: 162px;
+    list-style: none;
+    margin-top: 16px;
+}
+
+.my planes {
+    margin-top: 130px;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
+    line-height: 47px;
     color: #151414;
-    margin: 100px 200px;
-    margin-bottom: 24px;
 }
 
-.failure-description {
+.section-title {
 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    margin: 100px 200px;
-    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-bottom: 54px;
+    margin-top: 131px;
 }
 
+.skill-container {
+    display: flex;
+    gap: 24px;
+    transform: translate(25%, 25%);
+    margin-top: 54px;
+
+}
+
+.skill {
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 218px;
+
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    color: #757575;
+
+}
