@@ -45,7 +45,7 @@
     width: 90vh;
     text-align: right;
     margin-left: 50%;
-    
+    overflow: hidden;
     transform: translate(50px, 50px);
 }
 
@@ -168,7 +168,7 @@
     color: #FFFFFF;
     width: 459px;
     position: absolute;
-    top: 270%;
+    top: 300%;
     left: 11%;
 }
 
